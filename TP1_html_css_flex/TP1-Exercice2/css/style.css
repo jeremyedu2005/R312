@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #eee;
+   
+}
+
+div#page{
+    
+    background-color: #fff;
+
+
+
+}
+
+header{
+    width: 960px;
+    height: 192px;
+    background-color: #966;
+    background-image: url(/ressources/header.gif);
+    background-repeat:no-repeat;
+
+}
+
+
+
+
+header p{
+    position: relative;
+    right: -150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    
+
+
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    gap: 10px;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+
+div#content {
+    max-width: 960px;
+    max-height: 768px;
+    
+
+
+    
+    
+}
+
+section{
+    margin-left: 300px;
+    max-width: 676px;
+    min-width: 576px;
+    
+}
+
+section h1{
+    color: #633;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    
+
+}
+
+
+
+section h2{
+    color: #999;
+    text-align: center;
+}
+
+
+section img{
+    float: left;
+    margin-left: -92px;
+    margin-right: 45px;   /* espace entre image et texte */
+    margin-bottom: 10px;
+}
+
+section h2:nth-of-type(2) {
+    text-align: left;
+    margin-top: 40px;
+}
+
+section p:nth-of-type(2){
+    text-align: left;
+    margin-top: 10px;
+}
+
+section a{
+    color: brown;
+}
+
+
+
+
+aside{
+    position: relative;
+    max-width: 192px;
+    min-height: 576px;
+    top:-550px;
+    padding-top: 10px;
+    
+
+}
+
+aside h3{
+    display: block;
+    width: 182px;
+    color:#633 ;
+    font-size:2em;
+    
+}
+
+aside p{
+    display: block;
+    width: 150px;
+    text-align: left;
+    font-size: 18px;
+    
+}
+
+footer {
+    max-width: 906px;
+    height: 192px;
+    
+    
+    
+}
+
+
+div.block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:10px;
+
+}
+
+div.block-commentaire, div.block-difficulté{
+  width: 450px;
+  height: 250px;
+  background-color:#966; 
+}
+
+div.block-titre-commentaire  , div.block-titre-difficulté {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+div.block-paragraphe-commentaire , div.block-paragraphe-difficulté{
+  display: block;
+  width:350x;
+  
+}
+
+p.commentaire{
+  margin-top: 20px;
+  color:white ;
+  font-size: 20px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TP1.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <header>
+                <div class="gauche"> 
+                    <h1> FLEX CONTAINER </h1>
+                    <h2> (élément parent)</h2>
+                </div>
+
+                <div class="droite">
+                    <div><code>display:flex</code></div>
+                    <div id="deux"><code>display:inline-flex </code></div>
+                </div>
+            </header>
+            <div>
+                <table>
+                    <tr>
+                        <th>flex-direction</th>
+                        <th>flex-wrap</th>
+                        <th>justify-content</th>
+                        <th>align-items</th>
+                        <th>align-content</th>
+                    </tr>
+                    <td rowspan="2" class="direction">
+                        
+                        <span class="row">row </span> <br/>
+                        row-reverse <br/>
+                        column <br/>
+                        column-reverse <br/>
+                        
+
+
+                    </td>
+                    <td rowspan="2" class="wrap">
+                        <span class="no-wrap"> no-wrap</span> <br/>
+                        wrap <br/>
+                        wrap-reverse <br/>
+                    </td>
+                    <td class="Axe"> Axe principal(Main)</td>
+                    <td colspan="2" class="Secondaire"> Axe Secondaire (Cross) </td>
+                    
+                    <tr>
+                        <td rowspan="3" class="justify-content"> 
+                            <span class="flex-start">flex-start</span> <br/>
+                            flex-end <br/>
+                            center <br/>
+                            space-between <br/>
+                            space-around <br/>
+                            space-evenly <br/>
+                        </td>
+                        <td rowspan="3" class="align-items">
+                            flex-start <br/>
+                            flex-end <br/>
+                            center <br/>
+                            basseline <br/>
+                            <span class="stretch">stretch</span> <br/>
+
+                        </td>
+                        <td rowspan="3" class="align-content">
+                            flex-start <br/>
+                            flex-end <br/>
+                            center <br/>
+                            space-between <br/>
+                            space-around <br/>
+                            <span class="stretch">stretch</span> <br/> 
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="flow"> flex-flow </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="direction-wrap"> flex-direction + flex-wrap </td>
+                    </tr>
+                    <tr></tr>
+
+                </table>
+
+            </div>
+            
+
+        </section>
+        <section>
+             <header>
+
+            <div class="gauche2">
+                <h1> FLEX ITEMS </h1>
+                <h2> (éléments enfants)</h2>
+            </div>
+
+            <div  class="droite2">
+                <div class ="rectangle-pointillé">
+                        <div id="ITEM">
+                            <div> ITEM1</div>
+                            <div> ITEM2</div>
+                            <div> ITEM3</div>
+                            
+                        </div>
+                        
+                </div>
+
+            </div>
+                    
+                
+            </div>
+        </header>
+            <div>
+                <table class="taille" >
+                    <tr>
+                        <th > order</th>
+                        <th  class="zero" >0</th>
+
+                    </tr>
+                    <tr>
+                        <th >flex-grow</th>
+                        <th class="zero2">0<span></th>
+                        <th rowspan="3" class= "grosse-casse" > <span class="flexer"> flex:</span>  <span class="nombre"> 0 1 auto</span></th> <!-- afin d'occuper trois cases en une seule grosse casse-->
+                    </tr>
+                    <tr>
+                        <th>flex-shrink</th>
+                        <th class="un">1</th>
+                        
+                    </tr>
+                    <tr>
+                        <th>flex-basis</th>
+                        <th class="auto"> auto</th>
+                    </tr>
+                    <tr>
+                        <th>align-self</th>
+                        <th class="auto2"> auto</th>
+                    </tr>
+
+
+
+                </table>
+
+            </div>
+       
+        </section>
+
+       
+    </main>
+
+    <div class="block">
+        <div class="block-commentaire">
+            <div class="block-titre-commentaire">commentaire</div>
+            <div class="block-paragraphe-commetaire">
+                <p>Ce que j'ai appris en faisant le premier du TP1 est bien c'était d'apprendre à faire des tableaux il existe plusieurs méthode afin de faire un tableau et je l'avoue que celà m'a un peu surpris notamment grâce aux méthode flex sachant que flex n'est pas mon fort. De mon point de vue oui je n'ai pas très bien fini le TP mais c'est encore une opportuinité que le professeur nous a introduit le TP1 exercice 1 par les élémemenst flexible et aussi les tableaux.</p>
+            </div>
+            
+        </div>
+
+         <div class="block-difficulté">
+            <div class="block-titre-difficulté">Difficulté</div>
+            <div class="block-paragraphe-difficulté">
+                <p> Pour le niveau de Difficulté je donnerais une note de 3.5/5 parce que j'ai encore des lacunes avec les élément flexibles et aussi avec les tableau mais c'est quand même important d'apprendre FLEX parce que c'est la base du responsive .<br>cliquez <a href="TP1-Exercice2/exercice2.html">ici</a> pour aller au prochain exercice</p>
+            </div>
+            
+        </div>
+
+        
+    </div>
+
+
+        
+        
+      
+
+
+    
+</body>
+</html>

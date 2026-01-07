@@ -1,0 +1,139 @@
+
+
+
+
+
+
+
+
+
+ul{
+   position: fixed;
+}
+
+ul li:nth-child(1) a {
+  color: red;
+}
+ul li:nth-child(2) a {
+  color: green;
+}
+ul li:nth-child(3) a {
+  color: yellow;
+}
+
+#paragraphe1{
+    width:600px;
+    border:  2px solid red ;
+    margin: 250px;
+    
+    
+    
+
+}
+
+#paragraphe1 h2{
+    text-align: center;
+}
+
+#paragraphe1{
+    display: none; /*cacher les paragraphes*/
+}
+
+#paragraphe1:target { /*cilbles le paragraphe 1*/
+  display: block;
+}
+
+#paragraphe2{
+    width:600px;
+    border:  2px solid green ;
+    margin: 250px;
+    
+    
+    
+    
+
+}
+
+
+
+#paragraphe2 h2{
+    text-align: center;
+}
+
+
+
+#paragraphe2{
+    display: none; /*cacher les paragraphes*/
+}
+
+#paragraphe3{
+    width:600px;
+    border:  2px solid yellow ;
+    margin: 250px;
+    
+    
+}
+
+#paragraphe3 h2{
+    text-align: center;
+}
+
+#paragraphe2:target { /*cilbles le paragraphe 2*/
+  display: block;
+}
+
+#paragraphe3{
+    display: none;/*cacher les paragraphes*/
+}
+
+#paragraphe3:target { /*cilbles le paragraphe 1*/
+  display: block;
+}
+
+
+
+.block{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:10px;
+
+}
+
+.block-commentaire, .block-difficulté{
+  width: 450px;
+  height: 250px;
+  background-color:#CC0033; 
+}
+
+.block-titre-commentaire  , .block-titre-difficulté {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+.block-paragraphe-commentaire , .block-paragraphe-difficulté{
+  display: block;
+  width:350x;
+  
+}
+
+
+
+.commentaire{
+  text-align: left;
+  margin-top: 20px;
+  font-size: 17px;
+  color: lightgreen;
+}
+
+
+
+
+
+
+

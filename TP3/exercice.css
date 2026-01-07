@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.figure{
+    width: 300px; /*largeur*/
+    height: 200px; /*height*/
+    background-color: #2f2a5a;
+    
+
+}
+
+@media screen and (max-width:960px){
+    .figure{
+        background-color: red;
+
+    }
+    
+
+}
+
+@media screen and  (max-width: 480px){ /*utiliser la console developpeur afin de faire en sorte que ça fontionne*/
+    .figure{
+        background-color: blueviolet;
+    }
+}
+
+
+
+
+div.block{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:10px;
+
+}
+
+div.block-commentaire, div.block-difficulté{
+  width: 450px;
+  height: 250px;
+  background-color:#CC0033; 
+}
+
+div.block-titre-commentaire  , div.block-titre-difficulté {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+div.block-paragraphe-commentaire , div.block-paragraphe-difficulté{
+  display: block;
+  width:350x;
+  
+}
+
+p{
+  margin-top: 20px;
+  color:lightgreen ;
+  font-size: 20px;
+}
+
+
+
+
+    
+

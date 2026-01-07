@@ -1,0 +1,224 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+
+
+header {
+	background-color : yellow;
+	border-radius : 10px;
+	border : solid 1px #CCCCCC;
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    
+}
+
+main{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+   
+    
+
+    
+    
+}
+
+article {
+	background-color : cyan;
+	border-radius : 10px;
+	border : solid 1px #CCCCCC;
+    width: 25%;
+    flex-grow:1;
+    
+    
+    
+    
+
+	
+
+	
+	
+    
+
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+footer {
+	background-color : orange;
+	border-radius : 10px;
+	border : solid 1px #CCCCCC;
+    padding:10px;
+    display: flex;
+    flex-grow: 1;
+
+    
+    
+ 
+    
+    
+    
+   
+    
+    
+   
+    
+
+
+}
+
+footer div {
+	background-color : magenta;
+	border-radius : 10px;
+	border : solid 1px #CCCCCC;
+    width: 25%;
+    flex-grow:1;
+    
+    
+    
+    
+
+    
+    
+	
+}
+
+
+
+
+
+div.block{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:10px;
+
+}
+
+div.block-commentaire, div.block-difficulté{
+  width: 450px;
+  height: 250px;
+  background-color:#CC0033; 
+}
+
+div.block-titre-commentaire  , div.block-titre-difficulté {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+div.block-paragraphe-commentaire , div.block-paragraphe-difficulté{
+  display: block;
+  width:350x;
+  
+}
+
+p.commentaire{
+  margin-top: 20px;
+  color:lightgreen ;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width:960px){
+
+    article{
+        width:45%;
+
+    }
+
+    footer {
+    flex-direction: column; /* ✅ empile les deux blocs */
+    align-items: center;
+    gap: 10px;
+  }
+    footer div{
+        width: 100%;
+        
+    }
+ 
+}
+
+@media screen and (max-width:650px){
+    header{
+        justify-content: center;
+    }
+       
+    article{
+        width: 75%;
+    }
+    
+    footer{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    footer div:nth-child(1){
+        width:90%
+    }
+
+    footer div:nth-child(2){
+        display: none;
+    }
+
+
+
+        
+
+
+   
+   
+    
+   
+    
+
+    
+    
+}
+
+
+
+
+ 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+	
+

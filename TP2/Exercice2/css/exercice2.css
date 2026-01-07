@@ -1,0 +1,94 @@
+
+#container{
+  display: grid;
+  height: 80vh;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 50px 50px 1fr 100px 50px 50px; /* lignes égales */
+  gap: 10px;
+  background-color: purple;
+}
+	 
+#item1 {
+	background-color : #F16B08;
+	grid-column-start: 1;
+	grid-column-end: 4;
+ } 
+
+#item2 {
+	background-color : #B2F109;
+	grid-row: 2 / 6 ;
+	grid-column:1 / 2;	
+}
+
+#item3 {
+	background-color : #23F109;
+	grid-row: 5 / 6;
+	grid-column: 2 / 4;
+}
+
+#item4 {
+	background-color : #3050F0;
+	grid-row: 6 / 7;
+	grid-column: 1 / 4;	
+}
+
+#item5 {
+	background-color : #FBB5E9;
+	grid-row:2 / 3;	
+	grid-column: 2 / 4;	
+}
+
+#item6 {
+	background-color : #0AF1AD;
+	grid-row: 3/5;
+	grid-column:2/3;
+}
+
+#item7 {
+	background-color : #E8F571;
+	grid-row:3 / 4;	
+	grid-column: 3 / 4;		
+}
+
+#item8 {
+	background-color : #31838F;	
+	grid-row:4 / 5;	
+	grid-column: 3 / 4;
+}
+
+
+div.block{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:10px;
+
+}
+
+div.block-commentaire, div.block-difficulté{
+  width: 450px;
+  height: 250px;
+  background-color:#CC0033; 
+}
+
+div.block-titre-commentaire  , div.block-titre-difficulté {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+div.block-paragraphe-commentaire , div.block-paragraphe-difficulté{
+  display: block;
+  width:350x;
+  
+}
+
+p{
+  margin-top: 20px;
+  color:lightgreen ;
+  font-size: 20px;
+}

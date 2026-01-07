@@ -1,0 +1,50 @@
+body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #333;
+}
+canvas{
+      border: 2px solid #000;
+      image-rendering: pixelated; 
+}
+
+
+.block{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:10px;
+
+}
+
+.block-commentaire, .block-difficulté{
+  width: 450px;
+  height: 250px;
+  background-color:#CC0033; 
+}
+
+.block-titre-commentaire  , .block-titre-difficulté {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+.block-paragraphe-commentaire , .block-paragraphe-difficulté{
+  display: block;
+  width:350px;
+  
+}
+
+.commentaire{
+    color: lightgreen;
+    margin-top:40px;
+    font-size: 16px;
+}
+

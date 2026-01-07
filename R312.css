@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    list-style: none;
+
+}
+
+
+body{
+    background-color: rgb(107, 107, 187);
+}
+
+nav{
+    display: flex;
+    background: #85a1fb;
+    width: 100%;
+    height: 100px;
+    
+}
+
+ul  {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #d1eff7;
+
+}
+
+div.premiere-liste-TP,div.deuxieme-liste-TP{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 30px;
+    justify-content: space-evenly;
+    
+
+    
+}
+
+div.carte-TP1 , div.carte-TP2,div.carte-TP3,div.carte-TP4,div.carte-TP5,div.carte-TP6,div.carte-TP7,div.carte-TP8{
+    margin-top: 20px;
+    width: 400px;
+    height:250px;
+    background-color:#1a2644; 
+    border-radius: 10px;
+    
+    
+}
+
+div.carte-TP1:hover, div.carte-TP2:hover, div.carte-TP3:hover, div.carte-TP4:hover, div.carte-TP5:hover, div.carte-TP6:hover, div.carte-TP7:hover, div.carte-TP8:hover {
+    transform: scale(1.1); 
+}
+
+div.titre-TP1,div.titre-TP2,div.titre-TP3,div.titre-TP4,div.titre-TP5,div.titre-TP6,div.titre-TP7,div.titre-TP8{
+    width: 400px;
+    height: 100px;
+    margin-top: 0.4px;
+    border-radius: 5px;
+    background-color:#495da3; 
+    
+}
+
+p.paragraphe-TP1,p.paragraphe-TP2,p.paragraphe-TP3,p.paragraphe-TP4 ,p.paragraphe-TP5 ,p.paragraphe-TP6,p.paragraphe-TP7,p.paragraphe-TP8{
+    color: #d1eff7;
+    font-size: 30px;
+    text-align: center;
+    
+    
+    
+}
+
+
+div.clique-TP1,div.clique-TP2,div.clique-TP3,div.clique-TP4,div.clique-TP5,div.clique-TP6,div.clique-TP7,div.clique-TP8{
+    margin-top: 50px;
+    text-align: center;
+}
+
+a.lien-TP1,a.lien-TP2,a.lien-TP3,a.lien-TP4,a.lien-TP5,a.lien-TP6,a.lien-TP7,a.lien-TP8{
+    color: #d1eff7;
+    font-weight: bold;
+    
+
+}
+
+footer{
+    position: fixed;
+    background-color: #85a1fb;
+    color:white;
+    bottom:0;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 10002;
+    
+   
+
+}
+
+
+

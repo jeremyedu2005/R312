@@ -1,0 +1,137 @@
+*{
+    background-color: gray;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
+
+
+a[href$=".pdf"]::before { /* "$" signifie terminant par*/
+    content: url(../icones/pdf.png) " unDocumentpdf.pdf"; /* On ajoute le texte ici */
+    margin-right: 5px;
+    text-decoration: underline;
+    color: brown;
+    
+    
+    
+    
+
+    
+}
+
+a[href$=".doc"]::before {
+    content:url(../icones/doc.png) "unDocumentWord.doc";
+    margin-right:5px;
+    text-decoration: underline;
+    color:brown;
+    
+
+}
+
+a[href$=".xls"]::before {
+    content: url(../icones/xls.png) "unDocumentExcel.xls";
+    margin-right: 5px;
+    text-decoration: underline;
+    color:brown;
+}
+
+a[href$=".png"]::before {
+    content:   url(../icones/png.png) "unImagepng.png";
+    margin-right:5px ;
+    text-decoration: underline;
+    color: brown;
+}
+
+a[href$=".rtf"]::before {
+    content:   url(../icones/rtf.png) "unDocumentrtf.rtf";
+    margin-right:5px ;
+    text-decoration: underline;
+    color: brown;
+}
+
+a[href$=".zip"]::before {
+    content:   url(../icones/zip.png) "uneArchivezip.zip";
+    margin-right:5px ;
+    text-decoration: underline;
+    color: brown;
+    
+}
+
+a[href$=".svg"]::before {
+    content:   url(../icones/svg.png) "uneImagesvg.svg";
+    margin-right:5px ;
+    text-decoration: underline;
+    color: brown;
+    
+}
+
+a[href$=".ods"]::before {
+    content:   url(../icones/ods.png) "unfichierOOo.ods";
+    margin-right:5px ;
+    text-decoration: underline;
+    color: brown;
+}
+
+a[href$=".ppt"]::before {
+    content:   url(../icones/ppt.png) "unfichierpoxwerPoint.ppt";
+    margin-right:5px ;
+    text-decoration: underline;
+    color: brown;
+}
+
+a[hreflang]::after{
+    color:brown;
+}
+
+
+a[hreflang$="fr"]::after{
+    content: "(" url(../icones/fr.jpg)")";
+}
+
+a[hreflang$="en"]::after{
+    content: "(" url(../icones/en.jpg)")" ;
+}
+
+.block{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:10px;
+
+}
+
+.block-commentaire, .block-difficulté{
+  width: 450px;
+  height: 250px;
+  background-color:#CC0033; 
+}
+
+.block-titre-commentaire  , .block-titre-difficulté {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+.block-paragraphe-commentaire , .block-paragraphe-difficulté{
+  display: block;
+  width:350x;
+  
+}
+
+
+
+.commentaire{
+  text-align: left;
+  margin-top: 20px;
+  color: lightgreen;
+}

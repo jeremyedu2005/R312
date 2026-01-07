@@ -1,0 +1,122 @@
+/* Mise en page de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Empêche le défilement horizontal si nécessaire */
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Section avec effet Parallaxe */
+.parallax {
+    height: 500px;
+    background-image: url('/TP5/Exercice6/img/soleil.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 150px ;
+    transition: background-position 0.1s ease-out;
+    
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.parallax h2, .parallax p {
+    position: relative;
+    z-index: 2; 
+}
+
+.parallax h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+.block{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:10px;
+
+}
+
+.block-commentaire, .block-difficulté{
+  width: 450px;
+  height: 250px;
+  background-color:#CC0033; 
+}
+
+.block-titre-commentaire  , .block-titre-difficulté {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+.block-paragraphe-commentaire , .block-paragraphe-difficulté{
+  display: block;
+  width:350x;
+  
+}
+
+
+
+.commentaire{
+  text-align: left;
+  margin-top: 20px;
+  color: lightgreen;
+}
+
+/* Désactivation de l'effet de parallaxe sur mobile */
+@media (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll; /* L'effet de parallaxe ne fonctionne pas bien sur mobile, on le désactive */
+        background-size: contain; /* Adapte l'image sur mobile */
+    }
+
+    .parallax h2 {
+        font-size: 2em; /* Réduit la taille du texte pour mobile */
+    }
+}
+
+
+
